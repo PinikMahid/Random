@@ -178,9 +178,7 @@ def ROCKY():
 
     if opt == '1':
       #  os.system('espeak -a 300 "random cloning start"')
-        time.sleep(0.5)
-        i()
-
+        time.sleep(0.5)   i()
         return None
 
     if opt == '3':
@@ -418,8 +416,8 @@ def i():
         print('\033[1;97m  [\033[38;5;42m●\033[1;97m] User-Agent :\033[38;5;46m '+str(len(ugen)))        
         print(f"\033[1;97m  [\033[1;92m▪︎\033[1;97m]  Target Doamin:\033[1;92m {doamin}")
         print(f"\033[1;97m  [\033[38;5;43m●\033[1;97m] Region : \033[38;5;46mBANGLA\033[1;91mDESH")        
-        print(' \033[1;97m [\033[38;5;44m●\033[1;97m] The process has been started')        
-        print('  [\033[38;5;46m●\033[1;97m] Use \033[0;31maroplane \033[1;97mmode first bro ;)')
+        print('\033[1;97m [\033[38;5;44m●\033[1;97m] The process has been started')        
+        print('[\033[38;5;46m●\033[1;97m] Use \033[0;31maroplane \033[1;97mmode first bro ;)')
         print(35*'_')
         print('\033[1;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         print('')
@@ -582,9 +580,5 @@ def separate():
     print(47*'-')
     input('\033[1;32mPress enter to back ')
     ROCKY()
-
-
-
-ROCKY()
 
  
